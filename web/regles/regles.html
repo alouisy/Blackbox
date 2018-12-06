@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<script type="text/javaScript" src="jquery-2.1.1.min.js"></script>
+        <link href="regles.css" media="all" rel="stylesheet" type="text/css"/>
+		<title>Règles du BlackBox</title>
+	</head>  
+	<body>
+		<h1>Black_Box</h1>
+		
+		<div id="presentiation">
+			
+		</div>
+
+		<div id="regles">
+			<p>Le principe du Jeu est le suivant:<br/>
+			Le joueur reçoit une grilles sur laquelle des atomes non-visibles ont étés placés.<br/>
+			A l'aide de sa souris il choisit une case rouge périphérique de la grille,<br/>ainsi de cette case partira un rayon laser qui sera soit :<br/>
+			- Dévié<br/>
+			- Absorbé<br/>
+			- Non affecté<br/>
+			Ces différentes situations dépendes des obstacles présents ou non sur le chemin du laser.</p>
+			<h3>Les différents Cas de figure :</h3>
+		</div>
+		<div class="images">
+			<table>
+				<tr>
+					<td>
+						<img src="img/cas1hd.png" alt="Cas n°1, le rayon est absorbé">
+					</td>
+
+					<td>
+						<img src="img/cas2hd.png" alt="Cas n°2, le rayon est dévié">	
+					</td>
+
+					<td>
+						<img src="img/cas3hd.png" alt="Cas n°3, le rayon est renvoyé">	
+					</td>
+					
+					<td>
+						<img src="img/cas4hd.png" alt="Cas n°4, le rayon est renvoyé à l'origine">					
+					</td>
+
+					<td>
+						<img src="img/cas5hd.png" alt="Cas n°5, le rayon n'est pas perturbé">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Cas n°1,<br/>le rayon est absorbé</p>
+					</td>
+
+					<td>
+						<p>Cas n°2,<br/>le rayon est dévié</p>	
+					</td>
+
+					<td>
+						<p>Cas n°3,<br/>le rayon est renvoyé</p>					
+					</td>
+
+					<td>
+						<p>Cas n°4,<br/>le rayon est renvoyé</p>					
+					</td>
+
+					<td>
+						<p>Cas n°5,<br/>le rayon n'est pas dévié</p>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="all">
+    		<img src="img/cas1hd.png" alt="" id="imgall">
+    	</div>
+
+    	<h3><a href="documentation.html">Documentation du jeu</a></h3>
+
+    	<footer>
+    		<p class="end">Site réalisé au cours du projet 1DEV SUPINFO 2015 $</p>
+    	</footer>
+
+		<script type="text/javaScript" src="regles.js"></script>
+
+	</body>
+</html>
