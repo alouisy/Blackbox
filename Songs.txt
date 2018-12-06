@@ -1,0 +1,12 @@
+settings:Music/song_4.wav
+clic:Music/clic.wav
+game:Music/song_1.wav
+game:Music/song_2.wav
+game:Music/song_7.wav
+game:Music/song_9.wav
+game:Music/song_10.wav
+menu:Music/song_3.wav
+menu:Music/song_5.wav
+menu:Music/song_6.wav
+menu:Music/song_8.wav
+menu:Music/song_11.wav
